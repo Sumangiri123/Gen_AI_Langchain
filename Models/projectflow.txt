@@ -16,3 +16,43 @@ Github Link -- https://github.com/campusx-official/langchain-models/tree/master
    pip install -r requirements.txt
 
 7. verify LangChain installation
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+-- First we do Setup(Follow the above 7 Steps for Setup) 
+-- Create 3 Folders
+-- We start with LLMs Folder First 
+
+      -- Generate Open AI API Keys (Must Have Credit Available min. 5 dollars)
+      -- Create the .env file to store the API Keys of the various LLMs
+      -- Start from 1_llm_demo.py coding part and then run the file (Instead of LLMs Prefer using ChatModels as it has become Old)
+      
+-- Start with ChatModel Folder
+
+      -- Start with 1_chatmodel_openai.py code and then run 
+      -- Use of temperature Parameter for creative responses
+      -- Use of max_completion_tokens to restrict the number of response tokens as it is paid
+
+-- Similarly we move on other files in the ChatModel Folders
+
+      -- First generating API Keys
+      -- then proceed with code part and run the file for generating responses
+      -- So we start with Anthropic >> Google Gemini 
+      -- Never Change the Way the API key variable name is written 
+      -- We Prefer Working with Open source models rather than Closed Source models
+      -- Finding Open Source Models from Hugging Face -- Largest Repo containg open source models
+      -- you download open source models directly which is the most popular Way(but needed hardware requirements) and also through api(which has limited access)
+
+      -- Creating Huggingface API Key
+      -- Start with 4_chatmodel_hf_api.py(Hugging Face -- Text Generation Model -- Choose the model)
+      -- Start with 5_chatmodel_hf_local.py(Generating Response from downloaded open source models)
+
+-- Start with EmbeddingModels Folder
+
+      -- Start with Coding of 1_embedding_openai_query.py and then run the file(generate embedding for single Query)
+      -- Start with 2_embedding_openai_docs.py (generates embedding for whole document)
+      -- Start 3_embedding_hf_local.py(We use open source embedding model from hugging face)
+      -- We create document similarity application , so do follow 4_document_similarity.py
+
+ 
