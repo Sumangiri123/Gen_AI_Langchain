@@ -1,0 +1,34 @@
+Github Link : https://github.com/campusx-official/langchain-prompts
+
+
+-- Started with clarification of Temperature Parameter (Follow the temperature.py)
+
+-- What are prompts , Types , its dependency on output generation 
+
+-- Start with prompt_ui.py , building a Research Tool
+-- Understanding the Static and Dynamic prompts
+-- Creating Prompt Template for Providing Seamless Experience to the user(Dynamic Prompt)
+
+
+-- Taking User input and filling it in the dynamic prompt and then generating the responses
+
+-- Use of Prompt Template Over F-string , though can be used
+        -- Validate Template
+        -- Resuable (Saving the Prompt template as json file in Prompt_generator.py)
+        -- Can be easily used in Chains
+
+-- Building Chatbot (Follow chatbot.py)
+
+    -- Adding Chat History to the Chatbot 
+    -- Adding the Role to the Chat History
+    -- Type of Messages In Langchain (Human , System and AI) Follow messages.py
+    -- Adding the Same Messages feature to the chatbot
+
+    -- You work with Chat Prompt Template when you want to create a System and Human Dynamic Messages
+    -- Start with chat_prompt_template.py
+    -- Prompt_template(For single Messages) vs Chat_Prompt_template(FOr Multi Messages)
+
+    -- Message Placeholder -- Used to Insert chat history inside Chat_Prompt_template
+    -- Stored Chat_history.txt and then Start with Mwssage_placeholder.py
+
+ 
