@@ -1,0 +1,16 @@
+-- Today we will focus on the processing the output coming from the LLM 
+-- Textual Output is Unstructure Output
+-- Output in the well defined format 
+
+-- Structured Output : Data Extaction ; API Building ; AI Agents
+
+-- Start with Coding Typedict_demo.py
+-- Start with with_structured_output.py
+-- Start with pydantic_demo.py
+-- Start with with_structured_output_pydantic.py
+-- Crating json_schema.py
+-- Start with with_structured_output_json.py
+-- Start with with_structured_output_ollama.py
+
+
+
