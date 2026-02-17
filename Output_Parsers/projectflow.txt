@@ -1,0 +1,23 @@
+-- Recap of how Structured Output output is important for communicating with other systems
+
+-- LLMs which can be give Structure Output
+-- LLMs which cant give Structure Output , we use Output Parser
+
+-- StrOutputparser
+
+    -- Start with stroutputparser.py then stroutputparser1.py
+
+-- JSONOutputParser
+
+    -- You want json output from LLM
+    -- Start with jsonoutputparser.py
+
+-- You can enforce any structure to json output format -- Structure Output Parser helps to enfore json_schema
+
+    -- Start with structureoutputparser.py(Data Validation cant be done here)
+
+-- Pydantic Output Parser -- Structure Output Paser to enfore schema + data validation
+
+    -- Start with Pydantic Output Parser
+
+
